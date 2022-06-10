@@ -13,6 +13,21 @@
   color: var(--primary-dark);
 }
 
+::-webkit-scrollbar {
+  position: absolute;
+  z-index: 1;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #71dad6;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #63ae99;
+}
+
 @layer base {
   body {
     @apply font-[Poppins];
